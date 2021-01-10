@@ -1,0 +1,9 @@
+create database tec;
+use tec;
+create table usuarios(
+id int not null primary key auto_increment,
+usuario varchar(25),
+pass varchar(25)
+);
+Insert into usuarios values
+('','informaxtec',123);
